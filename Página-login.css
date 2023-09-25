@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat & family= Poppins:wght@100;300;400;500;600;700 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+section{
+    width: 550px;
+    height: 650px;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    width: 450px;
+    height: 550px;
+    position: relative;
+
+}
+.e-mail{
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    
+}
+.e-mail input{
+    width: 400px;
+    height: 50px;
+    margin-top: 6px;
+    border: 1px solid rgba(91, 88, 88, 0.377);
+    border-radius: 10px;
+    padding-left: 20px;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    
+}
+.e-mail input:focus{
+    border: 1px solid red;
+}
+label{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+}
+
+.senha input{
+    width: 400px;
+    height: 50px;
+    margin-top: 6px;
+    border: 1px solid rgba(91, 88, 88, 0.377);
+    border-radius: 10px;
+    padding-left: 20px;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.senha{
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    
+}
+.senha input:focus{
+    border: 1px solid red;
+}
+.checked{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 70px;
+    position: absolute;
+    top: 75%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+.input-checked{
+
+}
+.recuperar input{
+    width: 130px;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: orange;
+    font-size: 15px;
+    cursor: pointer;
+}
+.recuperar a{
+    text-decoration: none;
+}
+.entrar button{
+    width: 400px;
+    height: 35px;
+    position: absolute;
+    top: 85%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.login h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: orange;
+    font-weight: normal;
+}
+.login p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.login a{
+    color: orange;
+    font-family: 'Poppins', sans-serif;
+}
+.google{
+    margin-top: 31px;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    width: 400px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;    
+}
+.google:hover{
+    background-color: #cccccc1e;
+}
+.google a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.google img{
+    width: 17px;
+    height: 20px;
+    position: absolute;
+    top: 21%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.separador hr{
+    
+    width: 370px;
+    position: absolute;
+    top: 29%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    border: 1;
+    height: 1px;
+    overflow: visible;
+    padding: 0;
+    color: #CCC;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.separador hr::after{
+    content: "Entrar com e-mail";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 0px 15px;
+  color: rgb(134, 134, 134);
+  background-color: white;
+}
+.imagem-area{
+    width: 60%;
+    position: relative;
+    text-align: center;
+    pointer-events: none;
+    background-color: white;
+  
+}
+.imagem{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    pointer-events: none;
+}
+.imagem img{
+    width: 400px;
+    pointer-events: none;
+}
+.text {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 50px;
+    pointer-events: none;
+}
+h1{
+    pointer-events: none;
+}
