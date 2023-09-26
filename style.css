@@ -14,6 +14,7 @@ main{
     width: 100%;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 section{
     width: 550px;
@@ -227,6 +228,7 @@ label{
     width: 400px;
     height: 400px;
     pointer-events: none;
+    flex-wrap: wrap;
 }
 .imagem img{
     width: 400px;
